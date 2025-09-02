@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ms-gateway-admin
+  profiles:
+    active: development
+  config:
+    import: optional:configadmin:http://root:123456@localhost:7071

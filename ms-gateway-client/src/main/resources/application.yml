@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ms-gateway-client
+  profiles:
+    active: development
+  config:
+    import: optional:configclient:http://root:123456@localhost:7071
