@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://github.com/bboyarchix/ultimo.git # ruta del repositorio git
           searchPaths: config-data
-          default-label: main
+          default-label: break
   security:
     user:
       name: root
