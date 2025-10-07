@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://github.com/Danilo-ai100/NUEVO.git # ruta del repositorio git
           searchPaths: config-data
-          default-label: circuitbreaker
+          default-label: main
   security:
     user:
       name: root
