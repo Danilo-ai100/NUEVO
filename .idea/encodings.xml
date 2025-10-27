@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/acad-Institucion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-Sede/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-antecedenteMedico-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-apoderado-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-asistencia/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-cargaacademica/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-insidenciasHistotico/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-matricula-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-registry-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-requisito-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acad-ugel/src/main/java" charset="UTF-8" />
+  </component>
+</project>

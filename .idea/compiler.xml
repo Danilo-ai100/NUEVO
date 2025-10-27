@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="acad-registry-server" />
+        <module name="acad-auth" />
+        <module name="acad-config-server" />
+        <module name="acad-gateway-server" />
+      </profile>
+      <profile name="Annotation profile for acad-Institucion" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="acad-Institucion" />
+      </profile>
+      <profile name="Annotation profile for acad-matricula-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="acad-antecedenteMedico-service" />
+        <module name="acad-matricula-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="acad-apoderado-service" target="17" />
+      <module name="acad-asistencia" target="17" />
+      <module name="acad-cargaacademica" target="17" />
+      <module name="acad-insidenciasHistorico" target="17" />
+      <module name="acad-requisito-service" target="17" />
+      <module name="acad-Sede" target="17" />
+      <module name="acad-ugel" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="acad-Institucion" options="-parameters" />
+      <module name="acad-Sede" options="-parameters" />
+      <module name="acad-antecedenteMedico-service" options="-parameters" />
+      <module name="acad-apoderado-service" options="-parameters" />
+      <module name="acad-asistencia" options="-parameters" />
+      <module name="acad-auth" options="-parameters" />
+      <module name="acad-cargaacademica" options="-parameters" />
+      <module name="acad-gateway-server" options="-parameters" />
+      <module name="acad-insidenciasHistorico" options="-parameters" />
+      <module name="acad-matricula-service" options="-parameters" />
+      <module name="acad-registry-server" options="-parameters" />
+      <module name="acad-requisito-service" options="-parameters" />
+      <module name="acad-ugel" options="-parameters" />
+    </option>
+  </component>
+</project>

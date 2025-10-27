@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: acad-gateway-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://root:123456@localhost:7070
+
+cloud:
+  gateway:
+    routes:
+      - id: auth-service
+        uri: lb://acad-auth-service
+        predicates:
+          - Path=/auth/**
+      - id: institucion-service
+        uri: lb://acad-Institucion
+        predicates:
+          - Path=/institucion/**
+      - id: matricula-service
+        uri: lb://acad-matricula-service
+        predicates:
+          - Path=/matricula/**
+      - id: antecedente-medico-service
+        uri: lb://acad-antecedenteMedico-service
+        predicates:
+          - Path=/antecedente-medico/**
+      - id: asistencia-service
+        uri: lb://acad-asistencia-service
+        predicates:
+          - Path=/asistencias/**
+      - id: insidencia-historico-service
+        uri: lb://acad-insidenciaHistorico-service
+        predicates:
+          - Path=/api/insidencias/**
+      - id: libretas-notas-service
+        uri: lb://acad-asistencia-service
+        predicates:
+          - Path=/api/libretasNotas/**
