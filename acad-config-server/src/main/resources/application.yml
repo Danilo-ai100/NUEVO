@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kevinraf/ACAD-BACKEND.git
+          uri: https://github.com/JIMY-BETANZOS-1/NUEVO.git
           searchPaths: config-data
           default-label: main
   security:
